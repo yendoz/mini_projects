@@ -1,0 +1,78 @@
+@import url(./global.css);
+
+.profile {
+    margin: 1rem;
+}
+.profile__me,.profile__new {
+    flex-direction: column;
+    margin: 0.5rem;
+}
+.profile__me-image {
+    width: 80px;
+    height: 80px;
+    background-image: url(../img/profile.jpg);
+    background-size: 80px;
+    border-radius: 50%;
+    margin: 0.5rem;
+}
+.profile__new-image {
+    width: 80px;
+    height: 80px;
+    font-size: 5rem;
+    color: var(--lightkhaki);
+    margin: 0.5rem;
+}
+
+
+.content {
+    margin: 1.5rem;
+}
+.content-box {
+    justify-content: flex-start;
+    overflow-x: scroll;
+}
+.content-container {
+    height: 180px;
+    flex-direction: column;
+    background-color: var(--border);
+    border-radius: 10px;
+    margin: 10px 5px 0 0;
+}
+.content-container img {
+    width: 200px;
+    height: 140px;
+    margin: 5px 10px;
+    border-radius: 10px;
+}
+
+
+.wishlist {
+    display: flex;
+    flex-direction: column;
+    margin: 0 1.5rem 1.5rem;
+    border-top: 1.5px solid var(--lightkhaki);
+}
+.wishlist__header {
+    padding: 20px 0 15px 0;
+}
+.wishlist__container {
+    display: flex;
+    align-items: center;
+    height: 70px;
+    margin: 5px 0;
+    background-color: var(--border);
+    border-radius: 15px;
+}
+.wishlist__container img {
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    margin: 0 1rem;
+}
+.wishlist__container span {
+    position: absolute;
+    right: 15px;
+}
+.wishlist__container-subtext {
+    font-size: small;
+}

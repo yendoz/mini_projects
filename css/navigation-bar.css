@@ -1,0 +1,25 @@
+
+.navigation-bar {
+    width: 6rem;
+    height: 2rem;
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 0 10px 0 0;
+    background-color: rgba(232, 232, 197, 0.562);
+}
+
+.navigation-bar span {
+    color: var(--khaki);
+    font-size: 1.5rem;
+}
+
+.nav-search-clicked {
+    font-weight: 600;
+}
+
+.nav-mypage-clicked {
+    font-weight: 600;
+}

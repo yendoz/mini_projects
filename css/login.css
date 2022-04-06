@@ -1,0 +1,47 @@
+@import url(./global.css);
+
+html,
+body {
+    overflow: auto;
+    flex-direction: column;
+}
+.login-title {
+    text-align: center;
+}
+.login-title__maintext {
+    color: var(--titlekhaki);
+    font-size: 7rem;
+}
+.login-title__subtext {
+    color: var(--khaki);
+    font-size: 0.9rem;
+}
+.login-form {
+    display: flex;
+    flex-direction: column;
+    margin: 1.5rem;
+}
+.login-form input {
+    padding: 15px;
+    margin: 0 10px;
+    background-color: var(--background);
+    font-size: 1em;
+}
+.login-form input:not([type="submit"]) {
+    color: var(--lightkhaki);
+    border-bottom: 1px solid var(--border);
+    transition: border-color 0.3s ease-in-out;
+}
+.login-form input:focus {
+    border-color: var(--lightkhaki);
+}
+.login-form input[type="submit"] {
+    color: var(--lightkhaki);
+    background-color: var(--border);
+    border-radius: 20px;
+    margin-top: 1rem;
+    transition: background-color 0.5s ease-in-out;
+}
+.login-form input[type="submit"]:active {
+    background-color: var(--titlekhaki);
+}

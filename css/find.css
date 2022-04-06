@@ -1,0 +1,82 @@
+@import url(./global.css);
+
+.search-bar {
+    padding: 0 25px;
+}
+.search-bar div {
+    width: 100%;
+}
+.search-bar__input {
+    width: 100%;
+    margin-top: 50px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    color: var(--khaki);
+    background-color: var(--border);
+    transition: background-color 0.3s ease-in-out;
+}
+.search-bar__input:focus {
+    background-color: var(--titlekhaki);
+}
+.search-bar span {
+    position: absolute;
+    bottom: 0.3rem;
+    right: 20px;
+}
+
+
+.container {
+    margin: 1.5rem;
+}
+.container__img-container {
+    padding: 0 20px;
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+}
+.container__img {
+    width: 20rem;
+    height: 15rem;
+    border-radius: 15px;
+}
+.container span {
+    position: absolute;
+    background-color: var(--border);
+    border-width: 1rem;
+    border-radius: 50%;
+    left: calc(50% + 5rem);
+    bottom: -1rem;
+}
+.container__text {
+    margin: 0.5rem;
+}
+.container__text-subtitle {
+    color: var(--khaki);
+}
+.container__text-title {
+    color: var(--titlekhaki);
+    font-size: 2.5rem;
+    display: inline;
+    font-weight: bold;
+}
+.container__text-subtext {
+    color: var(--lightkhaki);
+    display: inline;
+}
+
+
+.findcontainer {
+    margin: 2rem;
+}
+.findcontainer__img {
+    display: flex;
+    overflow-x: scroll;
+}   
+.findcontainer__img img {
+    margin: 10px 10px 10px 0;
+    width: 11rem;
+    height: 15rem;
+    border-radius: 15px;
+}
+
+

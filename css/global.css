@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@1,400;1,500;1,700;1,800&display=swap');
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons+Outlined");
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons+Round");
+
+
+@import url(./reset.css);
+@import url(./variable.css);
+@import url(./navigation-bar.css);
+@import url(./media-query.css);
+
+.material-icons.md-18 { font-size: 18px; }
+.material-icons.md-24 { font-size: 24px; }
+.material-icons.md-36 { font-size: 36px; }
+.material-icons.md-48 { font-size: 48px; }
+.material-icons-round.md-18 { font-size: 18px; }
+.material-icons-round.md-24 { font-size: 24px; }
+.material-icons-round.md-36 { font-size: 36px; }
+.material-icons-round.md-48 { font-size: 48px; }
+.material-icons-outlined.md-18 { font-size: 18px; }
+.material-icons-outlined.md-24 { font-size: 24px; }
+.material-icons-outlined.md-36 { font-size: 36px; }
+.material-icons-outlined.md-48 { font-size: 48px; }
+
+
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: 'EB Garamond', serif;
+    background-color: var(--background);
+    color: var(--khaki);
+}
+input {
+    border: none;
+    outline: none;
+    appearance: none;
+}
+.display-flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.position-relative {
+    position: relative;
+}
